@@ -1,0 +1,648 @@
+@page {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media print {
+    body {
+
+    }
+    .navi-wrap{
+        display: none;
+    }
+    .printRemove{
+        display: none;
+    }
+    .fineTotalPrint{
+        position: relative;
+        float: left;
+        left: 60%;
+    }
+    .serviceTotalPrint{
+        position: relative;
+        float: left;
+        left: 45%;
+    }
+    .feesTotalPrint{
+        position: relative;
+        float: left;
+        left: 48%;
+    }
+    .noBorderPrint {
+        border: none !important;
+        box-shadow: none !important;
+        outline: none !important;
+    }
+
+    .main-table{
+        border: 2px solid black;
+    }
+    .table-header{
+        border: 3px solid black;
+        font-size: 13px;
+    }
+}
+
+/*report-card css*/
+.ngdialog-content{
+    position: absolute !important;
+    top:12px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    overflow: scroll;
+    width :1300px !important;
+}
+
+
+body {margin-top: 0px;margin-left: 0px;}
+
+		 #page_1 {
+        position: relative;
+        overflow: hidden;
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+        border: none;
+        width: 100%;
+    }
+
+    #page_1 #id_1 {
+        float: left;
+        border: none;
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+        border: none;
+        width: 50%;
+        overflow: hidden;
+    }
+
+    #page_1 #id_2 {
+        border: none;
+        margin: 2% 0px 0px 10px;
+        padding: 0px;
+        border: none;
+        width: 50%;
+        overflow: hidden;
+    }
+
+    #page_1 #p1dimg1 {
+        position: absolute;
+        top: 2px;
+        left: 0px;
+        z-index: -1;
+        width: 100%;
+        height: 819px;
+    }
+
+    #page_1 #p1dimg1 #p1img1 {
+        width: 100%;
+        height: 819px;
+    }
+
+    #page_2 {
+        position: relative;
+        overflow: hidden;
+        margin: 28px 0px 125px 27px;
+        padding: 0px;
+        border: none;
+        width: 100%;
+    }
+
+    #page_2 #p2dimg1 {
+        position: absolute;
+        top: 41px;
+        left: 0px;
+        z-index: -1;
+        width: 1528px;
+        height: 906px;
+    }
+
+    #page_2 #p2dimg1 #p2img1 {
+        width: 1528px;
+        height: 906px;
+    }
+
+    .ft0 {
+        font: 16px 'Helvetica';
+        line-height: 22px;
+    }
+
+    .ft1 {
+        font: bold 16px 'Helvetica';
+        line-height: 18px;
+    }
+
+    .ft2 {
+        font: 1px 'Helvetica';
+        line-height: 1px;
+    }
+
+    .ft10 {
+        font: 88% 'Helvetica';
+        line-height: 116%;
+    }
+
+    .ft12 {
+        font: 16px 'Helvetica';
+        margin-left: 11px;
+        line-height: 22px;
+    }
+
+    .ft13 {
+        font: 16px 'Helvetica';
+        margin-left: 11px;
+        line-height: 18px;
+    }
+
+    .ft14 {
+        font: 16px 'Helvetica';
+        margin-left: 4px;
+        line-height: 18px;
+    }
+
+    .ft18 {
+        font: bold 170% 'Helvetica';
+        line-height: 37px;
+    }
+
+    .p0 {
+        text-align: left;
+        padding-left: 1px;
+        margin-bottom: 11px;
+    }
+
+    .p1 {
+        text-align: center;
+    }
+
+    .p2 {
+        text-align: left;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .p16 {
+        text-align: left;
+        padding-left: 310px;
+        margin-top: 9px;
+        margin-bottom: 14px;
+    }
+
+    .p17 {
+        text-align: left;
+        padding-left: 53px;
+        padding-right: 42px;
+        margin-top: 6px;
+        margin-bottom: 3px;
+        text-indent: -24px;
+    }
+
+    .p18 {
+        text-align: left;
+        padding-left: 29px;
+        margin-top: 4px;
+        margin-bottom: 0px;
+    }
+
+    .p19 {
+        text-align: left;
+        padding-left: 29px;
+        margin-top: 6px;
+        margin-bottom: 0px;
+    }
+
+    .p20 {
+        text-align: left;
+        padding-left: 53px;
+        padding-right: 42px;
+        margin-top: 4px;
+        margin-bottom: 0px;
+        text-indent: -24px;
+    }
+
+    .p21 {
+        text-align: left;
+        padding-left: 253px;
+        margin-top: 8px;
+        margin-bottom: 0px;
+    }
+
+    .p22 {
+        text-align: left;
+        padding-left: 4px;
+        margin-top: 11px;
+        margin-bottom: 0px;
+    }
+
+    .p23 {
+        text-align: left;
+        padding-left: 7px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        white-space: nowrap;
+    }
+
+    .p24 {
+        text-align: left;
+        padding-left: 27px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        white-space: nowrap;
+    }
+
+    .p25 {
+        text-align: left;
+        padding-left: 2px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        white-space: nowrap;
+    }
+
+    .p26 {
+        text-align: left;
+        padding-left: 3px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        white-space: nowrap;
+    }
+
+    .p27 {
+        text-align: left;
+        padding-left: 4px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        white-space: nowrap;
+    }
+
+    .p28 {
+        text-align: right;
+        padding-right: 49px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        white-space: nowrap;
+    }
+
+    .p29 {
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .p30 {
+        text-align: center;
+        margin-top: 4px;
+        margin-bottom: 0px;
+    }
+
+    .p31 {
+        text-align: left;
+        padding-left: 119px;
+        margin-top: 6px;
+        margin-bottom: 0px;
+    }
+
+    .p38 {
+        text-align: left;
+        padding-left: 2px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .td24 {
+        border: #000000 1px solid;
+        padding: 3px;
+        margin: 0px;
+        width: 108px;
+        vertical-align: bottom;
+        background: #e6e6ff;
+    }
+
+    .td36 {
+        padding: 0px;
+        margin: 0px;
+        width: 266px;
+        vertical-align: bottom;
+    }
+
+    .td37 {
+        padding: 0px;
+        margin: 0px;
+        width: 110px;
+        vertical-align: bottom;
+    }
+
+    .td38 {
+        padding: 0px;
+        margin: 0px;
+        width: 250px;
+        vertical-align: bottom;
+    }
+
+    .td39 {
+        padding: 0px;
+        margin: 0px;
+        width: 124px;
+        vertical-align: bottom;
+    }
+
+    .td43 {
+        padding: 0px;
+        margin: 0px;
+        width: 4px;
+        vertical-align: bottom;
+    }
+
+    .td51 {
+        border: #000000 1px solid;
+        padding: 3px;
+        margin: 0px;
+        width: 102px;
+        vertical-align: bottom;
+        background: #e6e6ff;
+    }
+
+    .td52 {
+        border: #000000 1px solid;
+        padding: 3px;
+        margin: 0px;
+        width: 148px;
+        vertical-align: bottom;
+    }
+
+    .td53 {
+        border: #000000 1px solid;
+        padding: 3px;
+        margin: 0px;
+        width: 109px;
+        vertical-align: bottom;
+        background: #e6e6ff;
+    }
+
+    .td54 {
+        border: #000000 1px solid;
+        padding: 3px;
+        margin: 0px;
+        width: 124px;
+        vertical-align: bottom;
+    }
+    .clear{
+      width: 100%;
+      height: 1px;
+      margin: 0 0 -1px;
+      clear: both;
+    }
+    .td55 {
+        border: #000000 1px solid;
+        padding: 3px;
+        ;
+        margin: 0px;
+        width: 114px;
+        vertical-align: bottom;
+    }
+
+    .tr0 {
+        height: 24px;
+    }
+
+    .tr6 {
+        height: 21px;
+    }
+
+    .tr10 {
+        height: 22px;
+    }
+
+    .tr11 {
+        height: 23px;
+    }
+
+    .tr13 {
+        height: 34px;
+    }
+
+    .myTable {
+        border-collapse: collapse;
+    }
+
+    .myTable th {
+        background-color: #e6e6ff;
+        vertical-align: bottom;
+    }
+
+    .myTable td,
+    .myTable th {
+        padding: 5px;
+        border: 1px solid #000;
+        text-align: center;
+    }
+
+    .myTable2 {
+        border-collapse: collapse;
+        ;
+    }
+
+    .myTable2 th {
+        background-color: #e6e6ff;
+        vertical-align: bottom;
+    }
+
+    .myTable2 td,
+    .myTable2 th {
+        padding: 5px;
+        border: 1px solid #000;
+        text-align: center;
+    }
+
+    .myTable3 {
+        border-collapse: collapse;
+    }
+
+    .myTable3 th {
+        background-color: #e6e6ff;
+        vertical-align: bottom;
+    }
+
+    .myTable3 td,
+    .myTable3 th {
+        padding: 4.4px;
+        border: 1px solid #000;
+        text-align: center;
+        height: 21px;
+    }
+
+    .reportBook {
+        text-align: center;
+        font-size: 36px;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .classSession {
+      text-align: center;
+        font-size: 17px;
+        padding-bottom: 3px;
+        font-weight: bold;
+    }
+
+    .sudentProfile {
+        position: relative;
+        margin-left: 10px;
+        top: 6px;
+        width: 95%;
+    }
+
+    .studentPr {
+        font-size: 26px;
+        padding: 3px;
+        font-weight: bold
+    }
+
+    .sudentProfileTable {
+        border-collapse: collapse;
+        width: 100%
+    }
+
+    .sudentProfileTable th {
+        background-color: #e6e6ff;
+        vertical-align: bottom;
+    }
+
+    .sudentProfileTable td,
+    .sudentProfileTable th {
+        padding: 7px;
+        border: 1px solid #000;
+        text-align: left;
+        width: 77px;
+    }
+
+    .healthStatus {
+        position: relative;
+        margin-left: 10px;
+        top: 6px;
+        width: 95%;
+    }
+
+    .healthSt {
+        font-size: 26px;
+        padding: 3px;
+        font-weight: bold
+    }
+
+    .healthStatusTable {
+        border-collapse: collapse;
+        width: 100%
+    }
+
+    .healthStatusTable th {
+        background-color: #e6e6ff;
+        vertical-align: bottom;
+        padding: 5px;
+        border: 1px solid #000;
+        text-align: left;
+        width: 27%;
+    }
+
+    .healthStatusTable td {
+        padding: 5px;
+        border: 1px solid #000;
+        text-align: left;
+    }
+
+    .attendence {
+        margin-left: 10px;
+        position: relative;
+        top: 6px;
+        width: 95%;
+    }
+
+    .atteendenceNamae {
+        font-size: 26px;
+        padding: 3px;
+        font-weight: bold
+    }
+
+    .attendenceTable {
+        border-collapse: collapse;
+        width: 100%
+    }
+
+    .attendenceTable th {
+        background-color: #e6e6ff;
+        padding: 5px;
+        border: 1px solid #000;
+        text-align: left;
+        height: 42px;
+        width: 33%
+    }
+
+    .attendenceTable td {
+        padding: 5px;
+        border: 1px solid #000;
+        text-align: left;
+    }
+
+    .signature {
+        margin-left: 10px;
+        position: relative;
+        top: 12px;
+        height: 45px;
+        width: 95%;
+        height: 123px;
+    }
+
+    .signatureTable {
+        border-collapse: collapse;
+        width: 100%
+    }
+
+    .signatureTable th {
+        background-color: #e6e6ff;
+        padding: 5px;
+        border: 1px solid #000;
+        text-align: left;
+        height: 42px;
+        width: 33%
+    }
+
+    .signatureTable td {
+        padding: 5px;
+        border: 1px solid #000;
+        text-align: left;
+    }
+
+    .academicPerformance {
+        position: relative;
+        top: 15px;
+    }
+
+    .computerEduTable,
+    .part2LifeSkillTable,
+    .part2AttributeTable,
+    .part3ATable,
+    .part3B,
+    .academicPerformanceTable {
+        border-collapse: collapse;
+        width: 98%
+    }
+
+    .computerEduTable th,
+    .part2LifeSkillTable th,
+    .part2AttributeTable th,
+    .part3ATable th,
+    .part3B th,
+    .academicPerformanceTable th {
+        background-color: #e6e6ff;
+        padding: 2px;
+        border: 1px solid #000;
+        text-align: center;
+    }
+
+    .computerEduTable td,
+    .part2LifeSkillTable td,
+    .part2AttributeTable td,
+    .part3ATable td,
+    .part3B td,
+    .academicPerformanceTable td {
+        border: 1px solid #000;
+        text-align: left;
+    }
+    
