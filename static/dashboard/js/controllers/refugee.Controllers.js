@@ -37,7 +37,7 @@ app.controller('RefugeeController',
       });
 
       modalInstance.result.then(function (amount) {
-        $scope.amount = amount;
+        $scope.amount = +$scope.amount + +amount;
       }, function () {
         console.log('Modal dismissed at: ' + new Date());
       });
