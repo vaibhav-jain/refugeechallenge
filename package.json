@@ -1,0 +1,23 @@
+{
+  "name": "refugeechallenge",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Repo for refugeechallenge collaborizm",
+  "repository": "https://github.com/vaibhav-jain/refugeechallenge",
+  "devDependencies": {
+    "angular-route": "^1.5.6",
+    "bower": "^1.3.1",
+    "http-server": "^0.6.1",
+    "require-directory": "^2.0.0",
+    "shelljs": "^0.2.6"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "angular-environment": "^1.0.4",
+    "ejs": "^2.4.2",
+    "express": "^4.13.4"
+  }
+}
